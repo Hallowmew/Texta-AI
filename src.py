@@ -11,7 +11,9 @@ elif pickedseed == 2:
 else:
  startingseed = "No"
 
-text = "It's pretty good.I heard you're loving skydiving."
+with open('text.txt', 'r', encoding='utf-8') as file:
+  text = file.read()
+
 print(startingseed)
 splittedtext = text.split(".")
 
@@ -51,19 +53,22 @@ new_x = [d[i] for i in splittedtext]
 
 print(new_x)
 
-#Converting labels to str itself
+#converting tokenizied values to string
 reverse_d = {v: k for k, v in d.items()}
 texta = ' '.join([reverse_d[i] for i in new_x])
 
 print(texta)
 
-#Using tokenized text as data 
-""" w = [0.5 for w in range(10)]
-
+#Tokinozer 
+w = [0.5 for w in range(1000)]
 an = [0.5 for an in range(10)]
 
+result = [] 
+for i in range(min(len(w), len(new_x))):
+    result.append(w[i] * new_x[i])
+
+print(result)
 
 
-aa = [new_x * w]
-print(aa) 
-"""
+
+
