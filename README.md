@@ -7,3 +7,16 @@ This project is on early stages of development as more people discover this page
 
 
 
+# About project
+Unlike most Ai projects on github this project doesn't use 3.rd party python packages. 
+
+# Contribution tips
+Try to add new feature, optimize, discuss, try to imrprove this code overall. With right pull request I probably may accept it.
+
+# To run
+If you wanna fine tune this model change text file. You need to edit src.py code for that tho.
+
+
+
+
+
