@@ -57,7 +57,7 @@ texta = ' '.join([reverse_d[i] for i in new_x])
 
 print(texta)
 
-
+#Using tokenized text as data 
 """ w = [0.5 for w in range(10)]
 
 an = [0.5 for an in range(10)]
