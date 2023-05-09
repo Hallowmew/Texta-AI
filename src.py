@@ -56,3 +56,14 @@ reverse_d = {v: k for k, v in d.items()}
 texta = ' '.join([reverse_d[i] for i in new_x])
 
 print(texta)
+
+
+""" w = [0.5 for w in range(10)]
+
+an = [0.5 for an in range(10)]
+
+
+
+aa = [new_x * w]
+print(aa) 
+"""
