@@ -11,8 +11,10 @@ elif pickedseed == 2:
 else:
  startingseed = "No"
 
-with open('text.txt', 'r', encoding='utf-8') as file:
-  text = file.read()
+ 
+text = "It's pretty good.I heard you're loving skydiving."
+"""with open('text.txt', 'r', encoding='utf-8') as file:
+  text = file.read()"""
 
 print(startingseed)
 splittedtext = text.split(".")
